@@ -10,6 +10,7 @@ The random generation of the board is happening outside and provided to the firs
 The Turn object is deterministic and therefore it is easy to test.
 
 ## How to run
+I used sbt as build tool.
 The main class of the project is at:
 ```
 src/main/scala/com/orbstest/Game.scala
