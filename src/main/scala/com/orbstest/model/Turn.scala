@@ -56,6 +56,7 @@ class Turn(val board: Array[Array[Square]]) {
         val boardSwap2 = boardSwap1.updated(to._1, boardSwap1(to._1).updated(to._2, ns))
 
         Right(new Turn(boardSwap2))
+      case _                                              => Left(IllegalMove("This should not happened :("))
     }
   }
 
