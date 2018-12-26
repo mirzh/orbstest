@@ -28,7 +28,8 @@ object Game extends App {
     matrix
   }
 
-  var turn = new Turn(generateRandomBoard(4))
+  val boardSize = 4
+  var turn = new Turn(generateRandomBoard(boardSize))
 
   val viewer: Viewer = new CliViewer
 
