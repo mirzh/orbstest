@@ -18,3 +18,4 @@ The main class of the project is at:
 ```
 src/main/scala/com/orbstest/Game.scala
 ```
+(run it from IntelliJ)
